@@ -1,0 +1,225 @@
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\appsettings.Development.json
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\appsettings.json
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.exe
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.deps.json
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.runtimeconfig.json
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.runtimeconfig.dev.json
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ref\HPlusSport.API.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.pdb
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.csprojAssemblyReference.cache
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.AssemblyInfoInputs.cache
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.AssemblyInfo.cs
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.csproj.CoreCompileInputs.cache
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\staticwebassets\HPlusSport.API.StaticWebAssets.Manifest.cache
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\staticwebassets\HPlusSport.API.StaticWebAssets.xml
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\scopedcss\bundle\HPlusSport.API.styles.css
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.RazorTargetAssemblyInfo.cache
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.csproj.CopyComplete
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\ref\HPlusSport.API.dll
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.pdb
+D:\Users\cwenz\Documents\work\video\linkedin\courses\ASP.NET Core 3 Web API\Ex_Files_Building_Web_APIs_ASPNET_Core\Exercise Files\End_0604\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.genruntimeconfig.cache
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\appsettings.Development.json
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\appsettings.json
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.exe
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.deps.json
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.runtimeconfig.json
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.runtimeconfig.dev.json
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ref\HPlusSport.API.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\HPlusSport.API.pdb
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.csprojAssemblyReference.cache
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.AssemblyInfoInputs.cache
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.AssemblyInfo.cs
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.csproj.CoreCompileInputs.cache
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.MvcApplicationPartsAssemblyInfo.cs
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.MvcApplicationPartsAssemblyInfo.cache
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\staticwebassets\HPlusSport.API.StaticWebAssets.Manifest.cache
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\staticwebassets\HPlusSport.API.StaticWebAssets.xml
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\scopedcss\bundle\HPlusSport.API.styles.css
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.RazorTargetAssemblyInfo.cache
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.csproj.CopyComplete
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.dll
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\ref\HPlusSport.API.dll
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.pdb
+D:\data\projects\HPlusSport\HPlusSport.API\obj\Debug\net5.0\HPlusSport.API.genruntimeconfig.cache
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\data\projects\HPlusSport\HPlusSport.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace WebApi.Models
+namespace Web.API.Models
 {
     public static class ModelBuilderExtensions
     {

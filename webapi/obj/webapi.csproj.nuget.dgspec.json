@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj": {}
+    "D:\\c#\\microservices-Study\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj": {
+    "D:\\c#\\microservices-Study\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj",
+        "projectUniqueName": "D:\\c#\\microservices-Study\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj",
+        "projectPath": "D:\\c#\\microservices-Study\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\chave\\.nuget\\packages\\",
-        "outputPath": "D:\\Exemplos de código\\microservices\\webapi\\obj\\",
+        "outputPath": "D:\\c#\\microservices-Study\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\chave\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -46,17 +44,37 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0-preview.2.21154.2, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[6.0.0-preview.2.21154.2, )"
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -77,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.1.21103.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
         }
       }
     }
