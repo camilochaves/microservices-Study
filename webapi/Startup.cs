@@ -109,6 +109,6 @@ namespace Web.API
 // Chame o swagger para ver as API's
 // https://localhost:44315/swagger/index.htm 
 
-//Se for usar o POSTMAN, adicione o header : X-API-Version e a vers·o da API 1.0 ou 2.0
+//Se for usar o POSTMAN, adicione o header : X-API-Version e a vers√£o da API: 1.0 ou 2.0
 
 
