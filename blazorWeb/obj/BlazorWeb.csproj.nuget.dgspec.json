@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Exemplos de código\\microservices\\blazorWeb\\BlazorWeb.csproj": {}
+    "D:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj": {}
   },
   "projects": {
-    "D:\\Exemplos de código\\microservices\\blazorWeb\\BlazorWeb.csproj": {
+    "D:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Exemplos de código\\microservices\\blazorWeb\\BlazorWeb.csproj",
+        "projectUniqueName": "D:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj",
         "projectName": "BlazorWeb",
-        "projectPath": "D:\\Exemplos de código\\microservices\\blazorWeb\\BlazorWeb.csproj",
+        "projectPath": "D:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj",
         "packagesPath": "C:\\Users\\chave\\.nuget\\packages\\",
-        "outputPath": "D:\\Exemplos de código\\microservices\\blazorWeb\\obj\\",
+        "outputPath": "D:\\Exemplos de código\\microservices\\BlazorWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -24,15 +24,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -43,17 +43,21 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[6.0.0-preview.1.21103.6, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0-preview.1.21103.6, )"
+              "version": "[5.0.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[6.0.0-preview.1.21102.12, 6.0.0-preview.1.21102.12]"
+              "version": "[5.0.4, 5.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.1.21103.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O+eSVUMwALgkDvDeMaa6QE2Ge05t4LKIAvNfLp4bmUTVxVTcUBNJrAs1XgbbPV202Mvem/KalZGkOND2Csi+ow==",
+  "dgSpecHash": "LYV0/l7Z82wNsoRd0udG47gZN6dOqgAVk6oyoA+/0z0OMnv3W1DTqepfgvasRgal+obEyxkVQfOOKHR+w5kHag==",
   "success": true,
   "projectFilePath": "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
@@ -143,8 +143,7 @@
     "C:\\Users\\chave\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\chave\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\chave\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.2\\microsoft.netcore.app.host.win-x64.5.0.2.nupkg.sha512"
+    "C:\\Users\\chave\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
