@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YN7NefSM08dfZsnhY+yMi3ZRaz7BGcqeCFA34jq51WC9dDmi80inkBNt/QozMT23sltnxv/h0ZRq4Po9yNf+iw==",
+  "dgSpecHash": "O+eSVUMwALgkDvDeMaa6QE2Ge05t4LKIAvNfLp4bmUTVxVTcUBNJrAs1XgbbPV202Mvem/KalZGkOND2Csi+ow==",
   "success": true,
-  "projectFilePath": "D:\\C#\\microservices-Study\\webapi\\webapi.csproj",
+  "projectFilePath": "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chave\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -143,7 +143,8 @@
     "C:\\Users\\chave\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\chave\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\chave\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\chave\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.2\\microsoft.netcore.app.host.win-x64.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

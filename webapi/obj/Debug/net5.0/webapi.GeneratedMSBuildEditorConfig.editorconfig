@@ -4,5 +4,3 @@ build_property.TargetPlatformMinVersion =
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = webapi
-build_property.ProjectDir = d:\c#\microservices-Study\webapi\

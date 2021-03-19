@@ -107,7 +107,12 @@ namespace Web.API
 }
 
 // Chame o swagger para ver as API's
-// https://localhost:44315/swagger/index.htm 
+// https://localhost:5001/swagger/index.htm 
+
+//Criando docker image: docker build -t webapi:1.0 -f .dockerfile .
+//container: docker run -it --rm -p 8081:80 webapi:1.0
+//Dentro do container 
+// https://localhost:8081/swagger/index.htm 
 
 //Se for usar o POSTMAN, adicione o header : X-API-Version e a versão da API: 1.0 ou 2.0
 
