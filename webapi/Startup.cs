@@ -34,7 +34,7 @@ namespace Web.API
                 }
                 );
 
-            services.AddAuthentication("Bearer")
+            /*services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
                     options.Authority = "http://localhost:51959";
@@ -48,7 +48,7 @@ namespace Web.API
                         ValidateAudience = false
                     };
 
-                });
+                });*/
 
             services.AddCors(options =>
             {
@@ -69,7 +69,7 @@ namespace Web.API
 
             services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
-            services.AddSwaggerGen(options => options.OperationFilter<SwaggerDefaultValues>());
+            services.AddSwaggerGen(options => options.OperationFilter<SwaggerDefaultValues>());          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -77,7 +77,7 @@ namespace Web.API
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();               
             }
 
             app.UseHttpsRedirection();
@@ -86,7 +86,7 @@ namespace Web.API
 
             app.UseCors();
 
-            app.UseAuthentication();
+            //app.UseAuthentication();
             app.UseAuthorization();
             
             app.UseEndpoints(endpoints =>{endpoints.MapControllers();});
@@ -105,3 +105,10 @@ namespace Web.API
     }
 
 }
+
+// Chame o swagger para ver as API's
+// https://localhost:44315/swagger/index.htm 
+
+//Se for usar o POSTMAN, adicione o header : X-API-Version e a versáo da API 1.0 ou 2.0
+
+

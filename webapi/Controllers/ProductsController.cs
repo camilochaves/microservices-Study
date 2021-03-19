@@ -14,7 +14,7 @@ namespace Web.API.Controllers
     [ApiVersion("1.0")]
     //[Route("v{v:apiVersion}/products")]
     [Route("products")]
-    [Authorize]
+    //[Authorize]
     [ApiController]
     public class ProductsV1_0Controller : ControllerBase
     {
