@@ -14,7 +14,7 @@ namespace Web.API.Controllers
     [ApiVersion("1.0")]
     //[Route("v{v:apiVersion}/products")]
     [Route("products")]
-    //[Authorize]
+    [Authorize(Roles = "admin, user")]
     [ApiController]
     public class ProductsV1_0Controller : ControllerBase
     {
@@ -26,6 +26,7 @@ namespace Web.API.Controllers
         }
 
         [HttpGet]
+        [Route("auth")]
         public async Task<IActionResult> GetAllProducts([FromQuery] ProductQueryParameters queryParameters) {
             IQueryable<Product> products = _context.Products;
 
@@ -70,6 +71,7 @@ namespace Web.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Route("auth")]
         public async Task<IActionResult> GetProduct(int id){
             var product = await _context.Products.FindAsync(id);
             if (product == null)
@@ -80,6 +82,7 @@ namespace Web.API.Controllers
         }
 
         [HttpPost]
+        [Route("auth")]
         public async Task<ActionResult<Product>> PostProduct([FromBody]Product product)
         {
             _context.Products.Add(product);
@@ -89,6 +92,7 @@ namespace Web.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Route("auth")]
         public async Task<IActionResult> PutProduct([FromRoute] int id, [FromBody] Product product)
         {
             if (id != product.Id) { return BadRequest();}
@@ -112,6 +116,7 @@ namespace Web.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Route("auth")]
         public async Task<ActionResult<Product>> DeleteProduct(int id)
         {
             var product = await _context.Products.FindAsync(id);
@@ -128,6 +133,7 @@ namespace Web.API.Controllers
 
         [HttpPost]
         [Route("Delete")]
+        [Route("auth")]
         public async Task<IActionResult> DeleteMultiple([FromQuery] int[] ids)
         {
             var products = new List<Product>();
@@ -145,9 +151,14 @@ namespace Web.API.Controllers
         }
     }
 
-    [ApiVersion("2.0")]
-    //[Route("v{v:apiVersion}/products")]
-    [Route("products")]
+/***********************************************************************************************************************************
+***********************************************************************************************************************************
+***********************************************************************************************************************************
+***********************************************************************************************************************************
+*/
+
+    [ApiVersion("2.0")]    
+    [Route("products")]    
     [ApiController]
     public class ProductsV2_0Controller : ControllerBase
     {
@@ -160,6 +171,8 @@ namespace Web.API.Controllers
         }
 
         [HttpGet]
+        [Route("auth")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> GetAllProducts([FromQuery] ProductQueryParameters queryParameters) {
             IQueryable<Product> products = _context.Products.Where(p => p.IsAvailable == true);
 
@@ -204,6 +217,8 @@ namespace Web.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Route("auth")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> GetProduct(int id){
             var product = await _context.Products.FindAsync(id);
             if (product == null)
@@ -223,6 +238,8 @@ namespace Web.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Route("auth")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> PutProduct([FromRoute] int id, [FromBody] Product product)
         {
             if (id != product.Id) {return BadRequest();}
@@ -246,6 +263,8 @@ namespace Web.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Route("auth")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Product>> DeleteProduct(int id)
         {
             var product = await _context.Products.FindAsync(id);
@@ -261,7 +280,8 @@ namespace Web.API.Controllers
         }
 
         [HttpPost]
-        [Route("Delete")]
+        [Route("auth")]        
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteMultiple([FromQuery] int[] ids)
         {
             var products = new List<Product>();

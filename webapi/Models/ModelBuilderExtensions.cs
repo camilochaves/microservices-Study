@@ -49,8 +49,10 @@ namespace Web.API.Models
                 new Product { Id = 33, CategoryId = 5, Name = "Vitamin D3 1000 IU (100 tablets)", Sku = "SVD3", Price = 12.49M, IsAvailable = true });
 
             modelBuilder.Entity<User>().HasData(
-                new User { Id = 1, Email = "adam@example.com" },
-                new User { Id = 2, Email = "barbara@example.com" });
+                new User { Id = 1, Email = "adam@example.com", Role = "user", Password = "1234" },
+                new User { Id = 2, Email = "barbara@example.com", Role = "user", Password = "1234"},
+                new User { Id = 3, Email = "chaves.camilo@gmail.com", Role = "admin", Password = "1234"}
+                );
         }
     }
 }

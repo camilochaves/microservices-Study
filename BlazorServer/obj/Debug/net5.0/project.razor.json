@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\BlazorServer.csproj",
+  "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\BlazorServer.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15917,52 +15917,52 @@
   "RootNamespace": "BlazorServer",
   "Documents": [
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Shared\\NavMenu.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Pages\\Counter.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Pages\\FetchData.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Pages\\_Host.cshtml",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Pages\\Error.cshtml",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Shared\\SurveyPrompt.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\App.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\_Imports.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Shared\\MainLayout.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorserver\\Pages\\Index.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorServer\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     }

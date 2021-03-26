@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\BlazorWeb.csproj",
+  "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -7,6 +7,39 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
+      {
+        "HashCode": 1194396114,
+        "Kind": "Components.Component",
+        "Name": "BlazorWeb.App",
+        "AssemblyName": "BlazorWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorWeb.App"
+        }
+      },
+      {
+        "HashCode": 579383382,
+        "Kind": "Components.Component",
+        "Name": "BlazorWeb.App",
+        "AssemblyName": "BlazorWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorWeb.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorWeb.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
       {
         "HashCode": 1227476546,
         "Kind": "Components.Component",
@@ -107,6 +140,59 @@
         }
       },
       {
+        "HashCode": -1340127332,
+        "Kind": "Components.Component",
+        "Name": "BlazorWeb.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorWeb.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1802246590,
+        "Kind": "Components.Component",
+        "Name": "BlazorWeb.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorWeb.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorWeb.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1581998815,
         "Kind": "Components.Component",
         "Name": "BlazorWeb.Shared.MainLayout",
@@ -203,59 +289,6 @@
         }
       },
       {
-        "HashCode": -1340127332,
-        "Kind": "Components.Component",
-        "Name": "BlazorWeb.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorWeb.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -1802246590,
-        "Kind": "Components.Component",
-        "Name": "BlazorWeb.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorWeb.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorWeb.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1617100128,
         "Kind": "Components.Component",
         "Name": "BlazorWeb.Shared.NavMenu",
@@ -285,39 +318,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorWeb.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1194396114,
-        "Kind": "Components.Component",
-        "Name": "BlazorWeb.App",
-        "AssemblyName": "BlazorWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorWeb.App"
-        }
-      },
-      {
-        "HashCode": 579383382,
-        "Kind": "Components.Component",
-        "Name": "BlazorWeb.App",
-        "AssemblyName": "BlazorWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorWeb.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorWeb.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -12993,42 +12993,42 @@
   "RootNamespace": "BlazorWeb",
   "Documents": [
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\Pages\\Counter.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\Shared\\MainLayout.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\Shared\\SurveyPrompt.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\Shared\\NavMenu.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\_Imports.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\Pages\\FetchData.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\App.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Exemplos de código\\microservices\\blazorweb\\Pages\\Index.razor",
+      "FilePath": "d:\\Exemplos de código\\microservices\\BlazorWeb\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     }

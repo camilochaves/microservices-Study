@@ -1,5 +1,6 @@
 using Web.API.Classes;
 using Web.API.Models;
+using Web.API.Auth;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Web.API
 {
@@ -34,31 +38,30 @@ namespace Web.API
                 }
                 );
 
-            /*services.AddAuthentication("Bearer")
-                .AddJwtBearer("Bearer", options =>
-                {
-                    options.Authority = "http://localhost:51959";
-                    options.RequireHttpsMetadata = false;
+            var key = Encoding.ASCII.GetBytes(Settings.Secret);
 
-                    options.Audience = "hps-api";
+            services.AddAuthentication
+            (x =>  {
+                        x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                        x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                    }
+            )
+            .AddJwtBearer
+            ( x => {
+                        x.RequireHttpsMetadata = false;
+                        x.SaveToken = true;
+                        x.TokenValidationParameters = new TokenValidationParameters
+                        {
+                            ValidateIssuerSigningKey = true,
+                            IssuerSigningKey = new SymmetricSecurityKey(key),
+                            ValidateIssuer = false,
+                            ValidateAudience = false
+                        };
+                    }
+            );
 
-                    options.TokenValidationParameters =
-                    new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                    {
-                        ValidateAudience = false
-                    };
-
-                });*/
-
-            services.AddCors(options =>
-            {
-                options.AddDefaultPolicy(builder =>
-                {
-                    builder.WithOrigins("https://localhost:44375")
-                           .AllowAnyHeader()
-                           .AllowAnyMethod();
-                });
-            });
+            //services.AddCors(options => { options.AddDefaultPolicy(builder =>{ builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });  });
+            services.AddCors();
 
             services.AddApiVersioning(options => {
                 options.ReportApiVersions = true;
@@ -75,29 +78,25 @@ namespace Web.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();               
+            if (env.IsDevelopment()) 
+            { 
+                app.UseDeveloperExceptionPage(); 
             }
 
+            app.UsePathBase("/App");
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
-            app.UseCors();
-
-            //app.UseAuthentication();
-            app.UseAuthorization();
-            
+            app.UseCors( x => { x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();} );
+            app.UseAuthentication();
+            app.UseAuthorization();                        
             app.UseEndpoints(endpoints =>{endpoints.MapControllers();});
-
             app.UseSwagger();
             app.UseSwaggerUI(options =>
                 {
                     foreach (var description in provider.ApiVersionDescriptions) 
                     {
                         options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json",
-                            description.GroupName.ToUpperInvariant());    
+                        description.GroupName.ToUpperInvariant());    
                     }
                 }
                );

@@ -33,6 +33,9 @@ namespace BlazorServer
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            //app.UsePathBase("/App/");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -49,8 +52,10 @@ namespace BlazorServer
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapBlazorHub();
-                endpoints.MapFallbackToPage("/_Host");
-            });
+                endpoints.MapControllers();
+                endpoints.MapRazorPages();
+                endpoints.MapFallbackToPage("/_Host");                               
+            });           
         }
     }
 }
