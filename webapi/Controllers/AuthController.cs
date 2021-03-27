@@ -26,20 +26,20 @@ namespace Web.API.Controllers
         }
 
      
-        [HttpPost]
-        [Route("login")]
+        [HttpPost("[action]")]        
         [AllowAnonymous]
         public async Task<ActionResult<dynamic>> Login([FromBody] User user)
         {
+            if (user==null) { return NotFound(new {message = "Request must have a user body"}); }
+            User loggedUsr = await _context.Users.FirstOrDefaultAsync<User>(x=>x.Email.ToLower()==user.Email.ToLower());            
+            if(loggedUsr == null) return NotFound( new {message = "Usuário inexistente!"});
+            if (loggedUsr.Password != user.Password) return BadRequest(new {message = "Senha inválida!"});
 
-            //return Ok(new {user = user, token = "hello"});            
-            
-            var loggedUsr = await _context.Users.FirstAsync<User>(x=>(x.Email.ToLower()==user.Email.ToLower() && x.Password==user.Password));
-            if(loggedUsr == null) return NotFound( new {message = "Usuário inexistente ou senha inválida!"});
-            var token = TokenService.GenerateToken(user);
-            user.Password = "";
+
+            var token = TokenService.GenerateToken(loggedUsr);
+            loggedUsr.Password = "";
             return Ok(new {
-                user = user,
+                user = loggedUsr,
                 token = token
             });
         }

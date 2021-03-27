@@ -27,6 +27,10 @@ namespace Web.API.Controllers
         [Route("anonymous")]
         [AllowAnonymous]
         public string Anonymous() => "Anonymous Get called";
+
+
+        
+
     }
 
    
