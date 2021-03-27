@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1lqz/mVW/dohROuxTmMFRw65+rVi309F9mWwkc782DO3BoznVeDwXv3FEb8qZd4kC6tn37W6zy99aVJitzYOuQ==",
+  "dgSpecHash": "GR5dj1TtdkuhOhecNJetOQLTCf6wsHlXqODg+CYtoK39Gdia11KprVI1c25eyKVDCokdlDHkfDcIKwXk4XbPWA==",
   "success": true,
-  "projectFilePath": "D:\\Exemplos de código\\microservices\\webapi\\webapi.csproj",
+  "projectFilePath": "D:\\c#\\microservices-Study\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chave\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -168,7 +168,7 @@
     "C:\\Users\\chave\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\chave\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\chave\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.2\\microsoft.netcore.app.host.win-x64.5.0.2.nupkg.sha512"
+    "C:\\Users\\chave\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.3\\microsoft.netcore.app.host.win-x64.5.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -115,7 +115,6 @@ D:\c#\microservices-Study\webapi\obj\Debug\net5.0\webapi.dll
 D:\c#\microservices-Study\webapi\obj\Debug\net5.0\ref\webapi.dll
 D:\c#\microservices-Study\webapi\obj\Debug\net5.0\webapi.pdb
 D:\c#\microservices-Study\webapi\obj\Debug\net5.0\webapi.genruntimeconfig.cache
-D:\C#\microservices-Study\webapi\obj\Debug\net5.0\staticwebassets\webapi.StaticWebAssets.xml
 D:\Exemplos de código\microservices\webapi\bin\Debug\net5.0\appsettings.Development.json
 D:\Exemplos de código\microservices\webapi\bin\Debug\net5.0\appsettings.json
 D:\Exemplos de código\microservices\webapi\bin\Debug\net5.0\webapi.exe

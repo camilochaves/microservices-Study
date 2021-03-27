@@ -78,12 +78,12 @@ namespace Web.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
         {
-            if (env.IsDevelopment()) 
-            { 
+            //if (env.IsDevelopment()) 
+            //{ 
                 app.UseDeveloperExceptionPage(); 
-            }
+            //}
 
-            app.UsePathBase("/App");
+            //app.UsePathBase("/App");
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors( x => { x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();} );

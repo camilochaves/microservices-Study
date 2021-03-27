@@ -29,5 +29,5 @@ namespace Web.API.Controllers
         public string Anonymous() => "Anonymous Get called";
     }
 
-    
+   
 }
