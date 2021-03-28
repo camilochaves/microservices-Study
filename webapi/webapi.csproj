@@ -16,4 +16,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SharedTools\SharedTools\SharedTools\QRCode.csproj" />
+  </ItemGroup>  
 </Project>

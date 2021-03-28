@@ -31,7 +31,8 @@ namespace Web.API.Controllers
         public async Task<ActionResult<dynamic>> Login([FromBody] User user)
         {
             if (user==null) { return NotFound(new {message = "Request must have a user body"}); }
-            User loggedUsr = await _context.Users.FirstOrDefaultAsync<User>(x=>x.Email.ToLower()==user.Email.ToLower());            
+            User loggedUsr = await 
+            _context.Users.FirstOrDefaultAsync<User>(x=>x.Email.ToLower()==user.Email.ToLower());            
             if(loggedUsr == null) return NotFound( new {message = "Usuário inexistente!"});
             if (loggedUsr.Password != user.Password) return BadRequest(new {message = "Senha inválida!"});
 

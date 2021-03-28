@@ -1,6 +1,8 @@
 using Web.API.Classes;
 using Web.API.Models;
-using Web.API.Auth;
+using Web.API.Services;
+using Web.API.Middlewares;
+using Web.API.Middlewares.SecurityHeader;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +17,8 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System;
+using System.Net;
 
 namespace Web.API
 {
@@ -78,28 +82,41 @@ namespace Web.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
         {
-            //if (env.IsDevelopment()) 
-            //{ 
-                app.UseDeveloperExceptionPage(); 
-            //}
-
+            if (env.IsDevelopment()) { app.UseDeveloperExceptionPage(); }
             //app.UsePathBase("/App");
+            app.UseCors(x => { x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });
             app.UseHttpsRedirection();
+            app.UseAuthentication();            
             app.UseRouting();
-            app.UseCors( x => { x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();} );
-            app.UseAuthentication();
-            app.UseAuthorization();                        
-            app.UseEndpoints(endpoints =>{endpoints.MapControllers();});
+            app.UseAuthorization();            
             app.UseSwagger();
             app.UseSwaggerUI(options =>
+            {
+                foreach (var description in provider.ApiVersionDescriptions)
                 {
-                    foreach (var description in provider.ApiVersionDescriptions) 
-                    {
-                        options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json",
-                        description.GroupName.ToUpperInvariant());    
-                    }
+                    options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json",
+                    description.GroupName.ToUpperInvariant());
                 }
-               );
+            }
+             );
+
+            app.Use(async (context, next) =>
+            {
+                try
+                {                  
+                    await next.Invoke();
+                } catch (Exception ex)
+                {
+                    
+                }
+            });
+
+            app.UseSecurityHeadersMiddleware(new SecurityHeadersBuilder()
+                .AddDefaultSecurePolicy()               
+                .AddCustomHeader("X-Developed-By", "Camilo Chaves")
+            );
+
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 

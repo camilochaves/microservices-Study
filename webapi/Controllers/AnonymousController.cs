@@ -26,10 +26,7 @@ namespace Web.API.Controllers
         [HttpGet]
         [Route("anonymous")]
         [AllowAnonymous]
-        public string Anonymous() => "Anonymous Get called";
-
-
-        
+        public string Anonymous() => "Anonymous Get called";       
 
     }
 

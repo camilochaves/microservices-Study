@@ -3,11 +3,14 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Web.API.Models;
-using Web.API.Auth;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Web.API.Services
 {
+    public static class Settings
+    {
+        public static string Secret = "Afeijij8348NJS93948kdejdkjwekfn983948DKFJBQshjdfkg$kfdk&";
+    }
     public static class TokenService
     {
         public static string GenerateToken(User user)
