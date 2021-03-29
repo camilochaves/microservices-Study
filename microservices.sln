@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWeb", "BlazorWeb\Blaz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServer", "BlazorServer\BlazorServer.csproj", "{2431C9DC-E11C-4922-BD9A-25EAC84C2473}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QRCode", "..\SharedTools\SharedTools\SharedTools\QRCode.csproj", "{E9FCA03A-DB18-400E-9D54-3FF015D62C0A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{2431C9DC-E11C-4922-BD9A-25EAC84C2473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2431C9DC-E11C-4922-BD9A-25EAC84C2473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2431C9DC-E11C-4922-BD9A-25EAC84C2473}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9FCA03A-DB18-400E-9D54-3FF015D62C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9FCA03A-DB18-400E-9D54-3FF015D62C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9FCA03A-DB18-400E-9D54-3FF015D62C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9FCA03A-DB18-400E-9D54-3FF015D62C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SharedTools;
+//using SharedTools;
 using static System.Console;
 using System.Net;
 
@@ -21,19 +21,19 @@ namespace Web.API.Controllers
         [HttpPost("CreateFromHeader")]        
         [AllowAnonymous]
         public IActionResult Post([FromHeader(Name = "Mensagem")] string msg)
-        {            
-            var image = QrCodeGenerator.GenerateQRCodeAsByteArray(msg);
-            return File(image, "image/jpeg");
+        {
+            //var image = QrCodeGenerator.GenerateQRCodeAsByteArray(msg);
+            //return File(image, "image/jpeg");
+            return Ok();
         }
 
         [HttpPost("CreateFromBody")]
         [AllowAnonymous]
         public IActionResult Post([FromBody] Msg msg)
         {
-            //var re = Response;
-            //Response.Headers.Add("X-DEVELOPED-BY", "Camilo Chaves");
-            var image = QrCodeGenerator.GenerateQRCodeAsByteArray(msg.Message);
-            return File(image, "image/jpeg");
+            //var image = QrCodeGenerator.GenerateQRCodeAsByteArray(msg.Message);
+            //return File(image, "image/jpeg");
+            return Ok();
         }
 
     }

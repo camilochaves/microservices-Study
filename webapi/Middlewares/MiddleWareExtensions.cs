@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Web.API.Middlewares.Logger;
 using Web.API.Middlewares.SecurityHeader;
 
 namespace Web.API.Middlewares
@@ -12,5 +13,9 @@ namespace Web.API.Middlewares
             SecurityHeadersPolicy policy = builder.Build();
             return app.UseMiddleware<SecurityHeaderMiddleWare>(policy);
         }
+
+        public static IApplicationBuilder UseRequestResponseLogging(this IApplicationBuilder builder) =>
+            builder.UseMiddleware<AppLoggerMiddleware>();
+        
     }
 }

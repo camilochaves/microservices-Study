@@ -3,6 +3,7 @@ using Web.API.Models;
 using Web.API.Services;
 using Web.API.Middlewares;
 using Web.API.Middlewares.SecurityHeader;
+using Web.API.Middlewares.Logger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +19,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System;
-using System.Net;
+using Microsoft.Extensions.Logging;
 
 namespace Web.API
 {
@@ -76,11 +77,15 @@ namespace Web.API
 
             services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
-            services.AddSwaggerGen(options => options.OperationFilter<SwaggerDefaultValues>());          
+            services.AddSwaggerGen(options => options.OperationFilter<SwaggerDefaultValues>());            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
+        public void Configure(IApplicationBuilder app, 
+            IWebHostEnvironment env, 
+            IApiVersionDescriptionProvider provider,
+            ILoggerFactory loggerFactory
+            )
         {
             if (env.IsDevelopment()) { app.UseDeveloperExceptionPage(); }
             //app.UsePathBase("/App");
@@ -100,21 +105,26 @@ namespace Web.API
             }
              );
 
-            app.Use(async (context, next) =>
-            {
-                try
-                {                  
-                    await next.Invoke();
-                } catch (Exception ex)
-                {
-                    
-                }
-            });
 
             app.UseSecurityHeadersMiddleware(new SecurityHeadersBuilder()
                 .AddDefaultSecurePolicy()               
                 .AddCustomHeader("X-Developed-By", "Camilo Chaves")
             );
+
+            loggerFactory.AddContext(LogLevel.Information, Configuration.GetConnectionString("LoggerDatabase"));           
+
+            app.Use(async (context, next) =>
+            {
+                try
+                {
+
+                    await next.Invoke();
+                }
+                catch (Exception)
+                {
+
+                }
+            });
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

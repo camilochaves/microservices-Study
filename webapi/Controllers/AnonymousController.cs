@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace Web.API.Controllers
 {
@@ -17,16 +18,22 @@ namespace Web.API.Controllers
     public class AnonymousController : ControllerBase
     {
         private readonly ShopContext _context;
+        private readonly ILogger _logger;
 
-        public AnonymousController(ShopContext context) {
+        public AnonymousController(ShopContext context, ILogger<AnonymousController> logger) {
             _context = context;
             _context.Database.EnsureCreated();
+            _logger = logger;
         }
 
         [HttpGet]
         [Route("anonymous")]
         [AllowAnonymous]
-        public string Anonymous() => "Anonymous Get called";       
+        public string Anonymous()
+        {
+            _logger.Log<string>(LogLevel.Information, 1000, "GET Anonymo called", null, (state, msg) => state);
+           return  "Anonymous Get called";
+        }
 
     }
 

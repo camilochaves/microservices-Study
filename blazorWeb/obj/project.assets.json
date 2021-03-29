@@ -1151,11 +1151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\microservices-Study\\BlazorWeb\\BlazorWeb.csproj",
+      "projectUniqueName": "D:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj",
       "projectName": "BlazorWeb",
-      "projectPath": "D:\\C#\\microservices-Study\\BlazorWeb\\BlazorWeb.csproj",
+      "projectPath": "D:\\Exemplos de código\\microservices\\BlazorWeb\\BlazorWeb.csproj",
       "packagesPath": "C:\\Users\\chave\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\microservices-Study\\BlazorWeb\\obj\\",
+      "outputPath": "D:\\Exemplos de código\\microservices\\BlazorWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
