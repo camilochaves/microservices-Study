@@ -15,7 +15,7 @@ namespace Web.API.Middlewares
         }
 
         public static IApplicationBuilder UseRequestResponseLogging(this IApplicationBuilder builder) =>
-            builder.UseMiddleware<AppLoggerMiddleware>();
+            builder.UseMiddleware<HttpRequestBodyMiddleWareLogger>();
         
     }
 }

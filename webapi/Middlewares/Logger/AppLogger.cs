@@ -24,14 +24,10 @@ namespace Web.API.Middlewares.Logger
             TState state, Exception exception, Func<TState, Exception, string> formato)
         {
             if (!IsEnabled(logLevel)) return;
-
             if (formato == null) throw new ArgumentNullException(nameof(formato));
-
             var mensagem = formato(state, exception);
             if (string.IsNullOrEmpty(mensagem)) return;
-
             if (exception != null)  mensagem += $"\n{exception.ToString()}";
-
             mensagem = mensagem.Length > _messageMaxLength ? mensagem.Substring(0, _messageMaxLength) : mensagem;
             var eventLog = new LogEvento()
             {
@@ -41,7 +37,7 @@ namespace Web.API.Middlewares.Logger
                 CreatedTime = DateTime.UtcNow
             };
 
-            Console.WriteLine(eventLog.Id+": "+ eventLog.Message+" -> "+ eventLog.CreatedTime);
+            //Console.WriteLine("Console Writeline " + eventLog.Id+": "+ eventLog.Message+" -> "+ eventLog.CreatedTime);
 
             //_repositorio.InsertLog(eventLog);            
         }

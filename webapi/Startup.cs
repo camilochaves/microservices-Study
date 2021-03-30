@@ -72,7 +72,7 @@ namespace Web.API
                 options.ReportApiVersions = true;
                 options.DefaultApiVersion = new ApiVersion(1, 0);
                 options.AssumeDefaultVersionWhenUnspecified = true;
-                options.ApiVersionReader = new HeaderApiVersionReader("X-API-Version");
+                options.ApiVersionReader = new HeaderApiVersionReader("X-API-Version");                
             });
 
             services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
@@ -87,8 +87,11 @@ namespace Web.API
             ILoggerFactory loggerFactory
             )
         {
+            loggerFactory.AddContext(LogLevel.Information, Configuration.GetConnectionString("LoggerDatabase"));
+            //app.UseMiddleware<UnhandledLoggerExceptionMiddleware>();
+
             if (env.IsDevelopment()) { app.UseDeveloperExceptionPage(); }
-            //app.UsePathBase("/App");
+            
             app.UseCors(x => { x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });
             app.UseHttpsRedirection();
             app.UseAuthentication();            
@@ -105,26 +108,15 @@ namespace Web.API
             }
              );
 
-
             app.UseSecurityHeadersMiddleware(new SecurityHeadersBuilder()
                 .AddDefaultSecurePolicy()               
                 .AddCustomHeader("X-Developed-By", "Camilo Chaves")
             );
 
-            loggerFactory.AddContext(LogLevel.Information, Configuration.GetConnectionString("LoggerDatabase"));           
+           
 
-            app.Use(async (context, next) =>
-            {
-                try
-                {
-
-                    await next.Invoke();
-                }
-                catch (Exception)
-                {
-
-                }
-            });
+            //Do Nothing Middleware
+            //app.Use(async (context, next) => await next.Invoke() );                        
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

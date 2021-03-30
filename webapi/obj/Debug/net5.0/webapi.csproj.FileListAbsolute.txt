@@ -118,3 +118,4 @@ D:\Exemplos de código\microservices\webapi\obj\Debug\net5.0\ref\WebAPI.dll
 D:\Exemplos de código\microservices\webapi\obj\Debug\net5.0\WebAPI.pdb
 D:\Exemplos de código\microservices\webapi\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 D:\Exemplos de código\microservices\webapi\obj\Debug\net5.0\WebAPI.csprojAssemblyReference.cache
+D:\Exemplos de código\microservices\webapi\bin\Debug\net5.0\QRCoder.dll

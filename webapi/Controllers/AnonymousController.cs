@@ -31,7 +31,10 @@ namespace Web.API.Controllers
         [AllowAnonymous]
         public string Anonymous()
         {
-            _logger.Log<string>(LogLevel.Information, 1000, "GET Anonymo called", null, (state, msg) => state);
+            //_logger.Log<string>(LogLevel.Information, 1000, "GET Anonymo called", null, (state, msg) => state);
+            _logger.LogInformation("Info: GET ANONYMOUS CALLED");
+            _logger.LogWarning("Warn: From Anonymous");
+            _logger.LogTrace("Trace: From Anonymous");
            return  "Anonymous Get called";
         }
 
