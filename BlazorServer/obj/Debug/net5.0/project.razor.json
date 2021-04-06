@@ -12,10 +12,10 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1292382752,
+        "HashCode": -850879211,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.Counter",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -28,10 +28,10 @@
         }
       },
       {
-        "HashCode": -22353760,
+        "HashCode": 727490919,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.Counter",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -45,10 +45,10 @@
         }
       },
       {
-        "HashCode": 2048655524,
+        "HashCode": 2128833661,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.FetchData",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -61,10 +61,10 @@
         }
       },
       {
-        "HashCode": 882298099,
+        "HashCode": 1304352504,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.FetchData",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -78,10 +78,10 @@
         }
       },
       {
-        "HashCode": 1083775650,
+        "HashCode": -336876742,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.Index",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -94,10 +94,10 @@
         }
       },
       {
-        "HashCode": -1992969827,
+        "HashCode": -834267213,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.Index",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -111,10 +111,10 @@
         }
       },
       {
-        "HashCode": -371436937,
+        "HashCode": 1185894158,
         "Kind": "Components.Component",
         "Name": "BlazorServer.App",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -127,10 +127,10 @@
         }
       },
       {
-        "HashCode": 1827548282,
+        "HashCode": -1655555832,
         "Kind": "Components.Component",
         "Name": "BlazorServer.App",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -144,10 +144,10 @@
         }
       },
       {
-        "HashCode": -1578185855,
+        "HashCode": 1542979156,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Shared.SurveyPrompt",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -170,10 +170,10 @@
         }
       },
       {
-        "HashCode": 7108005,
+        "HashCode": 1522293316,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Shared.SurveyPrompt",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -197,10 +197,10 @@
         }
       },
       {
-        "HashCode": 218934342,
+        "HashCode": -1179948131,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Shared.MainLayout",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -225,10 +225,10 @@
         }
       },
       {
-        "HashCode": 843412155,
+        "HashCode": -1940612768,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Shared.MainLayout",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -254,10 +254,10 @@
         }
       },
       {
-        "HashCode": -592987180,
+        "HashCode": -138458196,
         "Kind": "Components.ChildContent",
         "Name": "BlazorServer.Shared.MainLayout.Body",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -273,10 +273,10 @@
         }
       },
       {
-        "HashCode": 300721440,
+        "HashCode": 885090736,
         "Kind": "Components.ChildContent",
         "Name": "BlazorServer.Shared.MainLayout.Body",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -293,10 +293,10 @@
         }
       },
       {
-        "HashCode": -234729351,
+        "HashCode": 1886720198,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Shared.NavMenu",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -309,10 +309,10 @@
         }
       },
       {
-        "HashCode": 85805371,
+        "HashCode": -1841248412,
         "Kind": "Components.Component",
         "Name": "BlazorServer.Shared.NavMenu",
-        "AssemblyName": "WebApp",
+        "AssemblyName": "WebServer",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {

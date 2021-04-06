@@ -1,12 +1,12 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
-WORKDIR /src
-COPY *.csproj .
-RUN dotnet restore 
-COPY . .
-RUN dotnet build -c Release -o /App/build 
-
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS final
-EXPOSE 80
+FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine AS build-env
 WORKDIR /App
-COPY --from=build /App/build .
-ENTRYPOINT ["dotnet", "WebApp.dll"]
+COPY *.csproj ./
+RUN dotnet restore
+COPY . ./
+RUN dotnet publish -c Release -o out -r linux-x64 --self-contained=false
+
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12
+WORKDIR /App
+EXPOSE 80
+COPY --from=build-env /App/out .
+ENTRYPOINT ["dotnet","WebServer.dll"]

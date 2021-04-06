@@ -106,7 +106,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Exemplos de código\\microservices\\BlazorServer\\BlazorServer.csproj",
-      "projectName": "WebApp",
+      "projectName": "WebServer",
       "projectPath": "D:\\Exemplos de código\\microservices\\BlazorServer\\BlazorServer.csproj",
       "packagesPath": "C:\\Users\\chave\\.nuget\\packages\\",
       "outputPath": "D:\\Exemplos de código\\microservices\\BlazorServer\\obj\\",

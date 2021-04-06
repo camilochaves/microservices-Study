@@ -618,7 +618,6 @@ D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\build-gz\VAa3L
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\build-gz\jyb7lCs1.gz
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\build-gz\gigpR10P.gz
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\build-gz\Rs76rfjQ.gz
-D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\build-gz\r0FEKb+N.gz
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\staticwebassets\BlazorWeb.StaticWebAssets.Manifest.cache
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\staticwebassets\BlazorWeb.StaticWebAssets.xml
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
@@ -630,3 +629,7 @@ D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\BlazorWeb.cspr
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\BlazorWeb.dll
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\ref\BlazorWeb.dll
 D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\BlazorWeb.pdb
+D:\Exemplos de código\microservices\BlazorWeb\bin\Release\net5.0\out\web.config
+D:\Exemplos de código\microservices\BlazorWeb\bin\Release\net5.0\out\wwwroot\sample-data\weather.json
+D:\Exemplos de código\microservices\BlazorWeb\bin\Release\net5.0\out\wwwroot\_framework\blazor.boot.json
+D:\Exemplos de código\microservices\BlazorWeb\obj\Release\net5.0\build-gz\iokITZ7C.gz

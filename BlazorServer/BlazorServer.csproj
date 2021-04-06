@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <AssemblyName>WebApp</AssemblyName>
+    <AssemblyName>WebServer</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

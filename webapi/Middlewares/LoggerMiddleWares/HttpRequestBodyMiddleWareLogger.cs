@@ -3,7 +3,6 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Microsoft.IO;
 
 namespace Web.API.Middlewares.Logger
 {

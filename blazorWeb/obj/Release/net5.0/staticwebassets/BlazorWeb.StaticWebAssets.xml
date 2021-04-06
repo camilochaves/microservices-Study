@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\Exemplos de código\microservices\blazorweb\bin\Release\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="D:\Exemplos de código\microservices\blazorweb\obj\Release\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\Exemplos de código\microservices\BlazorWeb\bin\Release\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Exemplos de código\microservices\BlazorWeb\obj\Release\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>

@@ -13,70 +13,70 @@ namespace BlazorWeb.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 1 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 2 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 3 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 4 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 5 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 6 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 7 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 8 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 9 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using BlazorWeb;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Exemplos de código\microservices\blazorweb\_Imports.razor"
+#line 10 "D:\Exemplos de código\microservices\BlazorWeb\_Imports.razor"
 using BlazorWeb.Shared;
 
 #line default

@@ -34,7 +34,7 @@ namespace BlazorServer
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-            //app.UsePathBase("/App/");
+            app.UsePathBase("/App");
 
             if (env.IsDevelopment())
             {

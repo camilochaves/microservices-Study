@@ -850,15 +850,6 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll": {}
-        }
-      },
       "Microsoft.Net.Http.Headers/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -3574,25 +3565,6 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
         "microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
-      ]
-    },
-    "Microsoft.IO.RecyclableMemoryStream/2.0.0": {
-      "sha512": "1yyQLkLGUD8IejtnzbsG4RwMspVGDX4GEtFNO72vU/F7ZFps/UCXjlv7IQSeEx/XBuih/UJDx+9U2sC8UcKG3w==",
-      "type": "package",
-      "path": "microsoft.io.recyclablememorystream/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net462/Microsoft.IO.RecyclableMemoryStream.dll",
-        "lib/net462/Microsoft.IO.RecyclableMemoryStream.xml",
-        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll",
-        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.xml",
-        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll",
-        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
-        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
-        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
-        "microsoft.io.recyclablememorystream.2.0.0.nupkg.sha512",
-        "microsoft.io.recyclablememorystream.nuspec"
       ]
     },
     "Microsoft.Net.Http.Headers/2.2.0": {
@@ -8109,7 +8081,6 @@
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 3.1.0",
       "Microsoft.Extensions.Logging.Debug >= 3.1.0",
-      "Microsoft.IO.RecyclableMemoryStream >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.0",
       "QRCoder >= 1.4.1",
       "Swashbuckle.AspNetCore >= 5.0.0",
@@ -8135,7 +8106,6 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "D:\\Exemplos de código\\microservices\\webapi\\NuGet.Config",
         "C:\\Users\\chave\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -8146,7 +8116,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Exemplos de código\\microservices\\webapi\\References": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8189,10 +8158,6 @@
             "target": "Package",
             "version": "[3.1.0, )"
           },
-          "Microsoft.IO.RecyclableMemoryStream": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -8220,12 +8185,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.2, 5.0.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8234,7 +8193,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.1.21103.13\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

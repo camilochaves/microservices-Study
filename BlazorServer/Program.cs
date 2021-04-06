@@ -21,8 +21,8 @@ namespace BlazorServer
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseWebRoot("/App/");
-                    webBuilder.UseContentRoot("/App/");
+                    //webBuilder.UseWebRoot("/App");
+                    //webBuilder.UseContentRoot("/App");
                     webBuilder.UseStartup<Startup>();                   
                 });
     }

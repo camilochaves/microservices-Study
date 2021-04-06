@@ -5,15 +5,92 @@ services:
 
   db:
     image: mysql
+    #networks: 
+    #  - kafkaNetwork
     #command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: teste
       MYSQL_DATABASE: DeliciasCaseiras
-    #ports:
-    #- 3306:3306
-    #volumes:
-    #- d:\data:/var/lib/mysql
+    ports:
+    - 3306:3306
+    volumes:
+    - d:\data:/var/lib/mysql
+
+  zoo1:
+    image: confluentinc/cp-zookeeper
+    #networks:
+    #  - kafkaNetwork
+    restart: always
+    hostname: zoo1
+    ports:
+      - 2181:2181
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_PORT: 2181
+      ZOO_SERVERS: server.1=localhost:2888:3888;2181 server.2=zoo2:2888:3888;2181
+      ZOO_LOG4J_PROP: "INFO,ROLLINGFILE"
+      ZOOKEEPER_TICK_TIME: 2000
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_AUTOPURGE_PURGE_INTERVAL: "0"
+    depends_on:
+      - zoo2
+
+  zoo2:
+    image: confluentinc/cp-zookeeper
+    #networks: 
+    #  - kafkaNetwork
+    restart: always
+    hostname: zoo2
+    ports:
+      - 2182:2181
+    environment:
+      ZOO_MY_ID: 2
+      ZOO_PORT: 2181
+      ZOO_SERVERS: server.1=localhost:2888:3888;2181      
+      ZOO_LOG4J_PROP: "INFO,ROLLINGFILE"
+      ZOOKEEPER_TICK_TIME: 2000
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_AUTOPURGE_PURGE_INTERVAL: "0"
 
 
-  
+  kafka1:
+    image: confluentinc/cp-kafka
+    hostname: kafka1
+    ports:
+      - 9092:9092      
+    #networks: 
+    #  - kafkaNetwork
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: "INTERNAL://kafka1:19092,EXTERNAL://localhost:9092"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT"      
+      KAFKA_INTER_BROKER_LISTENER_NAME: "INTERNAL"
+      KAFKA_ZOOKEEPER_CONNECT: "zoo1:2181,zoo2:2182"
+      KAFKA_ZOOKEEPER_SESSION_TIMEOUT: "6000"
+      KAFKA_RESTART_ATTEMPTS: "10"
+      KAFKA_RESTART_DELAY: "5"
+      KAFKA_BROKER_ID: 1
+      KAFKA_LOG4J_LOGGERS: "kafka.controller=INFO,kafka.producer.async.DefaultEventHandler=INFO,state.change.logger=INFO"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    depends_on:
+      - zoo1
+      - zoo2
+
+  kafdrop:
+    image: obsidiandynamics/kafdrop
+    restart: "no"
+    #networks: 
+    #  - kafkaNetwork
+    ports:
+      - 9101:9000
+    environment:
+      KAFKA_BROKERCONNECT: "kafka1:19092"
+      #JVM_OPTS: "-Xms16M -Xmx48M -Xss180K -XX:-TieredCompilation -XX:+UseStringDeduplication -noverify"
+      JVM_OPTS: "-Xms32M -Xmx64M"
+      SERVER_SERVLET_CONTEXTPATH: "/"
+      SERVER_PORT: 9000
+    depends_on:
+      - "kafka1"
+
+#networks: 
+#  kafkaNetwork:

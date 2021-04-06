@@ -90,6 +90,8 @@ namespace Web.API
             loggerFactory.AddContext(LogLevel.Information, Configuration.GetConnectionString("LoggerDatabase"));
             //app.UseMiddleware<UnhandledLoggerExceptionMiddleware>();
 
+            app.UsePathBase("/App");
+
             if (env.IsDevelopment()) { app.UseDeveloperExceptionPage(); }
             
             app.UseCors(x => { x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });
